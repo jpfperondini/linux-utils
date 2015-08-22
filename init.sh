@@ -50,6 +50,14 @@ rm -r idea-IC-141.1532.4
 #TODO add intellij to path?
 cd ~
 
+#maven
+cd ~/tools
+wget http://ftp.unicamp.br/pub/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
+tar xfz apache-maven-3.3.3-bin.tar.gz
+mv apache-maven-3.3.3 maven
+rm apache-maven-3.3.3-bin.tar.gz
+cd ~
+
 #docker
 #Disable this line if you are behind a proxy.
 #curl -sSL https://get.docker.com/gpg | sudo apt-key add -
