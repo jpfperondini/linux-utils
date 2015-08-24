@@ -33,7 +33,7 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 
 #PPA Programs
-sudo apt-get install git oracle-java8-installer vim google-chrome-stable brackets curl hub
+sudo apt-get install git oracle-java8-installer vim google-chrome-stable brackets curl redis-tools
 
 #Config
 git config --global user.name "João Pedro Perondini"
