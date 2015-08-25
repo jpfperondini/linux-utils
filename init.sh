@@ -69,3 +69,11 @@ sudo -i
 curl -L https://github.com/docker/compose/releases/download/1.4.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 exit
+
+#nodejs
+cd ~/tools
+wget https://nodejs.org/dist/v0.12.7/node-v0.12.7-linux-x64.tar.gz
+tar xfz node-v0.12.7-linux-x64.tar.gz
+mv node-v0.12.7-linux-x64 nodejs
+rm node-v0.12.7-linux-x64.tar.gz
+cd ~

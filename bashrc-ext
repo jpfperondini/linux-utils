@@ -8,4 +8,5 @@ PS1=${PS1::-3}"\[\033[01;31m\]\$(parse_git_branch)""\[\033[00m\]\$ "
 
 #Enviroment
 export MAVEN_HOME=/home/joao/tools/maven
-export PATH=$PATH:$MAVEN_HOME/bin
+export NODEJS_HOME=/home/joao/tools/nodejs
+export PATH=$PATH:$MAVEN_HOME/bin:$NODEJS_HOME/bin
