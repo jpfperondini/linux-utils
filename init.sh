@@ -77,3 +77,8 @@ tar xfz node-v0.12.7-linux-x64.tar.gz
 mv node-v0.12.7-linux-x64 nodejs
 rm node-v0.12.7-linux-x64.tar.gz
 cd ~
+
+# GO
+wget https://storage.googleapis.com/golang/go1.5.src.tar.gz
+sudo tar -C /usr/local -xzf go1.5.src.tar.gz
+rm go1.5.src.tar.gz
