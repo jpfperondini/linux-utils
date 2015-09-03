@@ -82,3 +82,8 @@ cd ~
 wget https://storage.googleapis.com/golang/go1.5.src.tar.gz
 sudo tar -C /usr/local -xzf go1.5.src.tar.gz
 rm go1.5.src.tar.gz
+
+# Activator
+wget https://downloads.typesafe.com/typesafe-activator/1.3.5/typesafe-activator-1.3.5-minimal.zip
+unzip typesafe-activator-1.3.5-minimal.zip
+mv activator-1.3.5-minimal ~/tools/activator
